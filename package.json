@@ -1,0 +1,44 @@
+{
+  "name": "platformerproto",
+  "version": "1.0.0",
+  "description": "platformer prototype",
+  "main": "views/index.ts",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurilov/platformerproto.git"
+  },
+  "keywords": [
+    "typescript",
+    "pixi",
+    "webpack"
+  ],
+  "author": "Yurii Shchepilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurilov/platformerproto/issues"
+  },
+  "homepage": "https://github.com/yurilov/platformerprotod#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "5.5.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@pixi/app": "^6.5.1",
+    "@pixi/display": "^6.5.1",
+    "pixi.js": "^6.5.1"
+  }
+}
