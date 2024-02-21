@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/yurilov/platformerproto/issues"
   },
-  "homepage": "https://github.com/yurilov/platformerprotod#readme",
+  "homepage": "https://github.com/yurilov/platformerproto#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^12.0.2",
